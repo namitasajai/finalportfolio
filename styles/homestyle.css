@@ -1,7 +1,8 @@
 @import url("https://use.typekit.net/hts0lrm.css");
 @import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+@import url("FontBook/stylesheet.css"); 
 
-@font-face {
+/* @font-face {
   font-family: "Zighead";
   src: url("Fonts/Zighead.otf") format("otf");
   font-weight: normal;
@@ -14,12 +15,12 @@
   font-style: italic;
 } */
 
-@font-face {
+/* @font-face {
   font-family: "PP Editorial New";
   src: url("Fonts/PPEditorialNew-Regular.otf") format("otf");
   font-weight: normal;
   font-style: normal;
-}
+} */
 
 /* @font-face {
   font-family: "PP Editorial New";
@@ -156,7 +157,7 @@ h1 {
 }
 
 .section1 {
-  font-size: 80px;
+  font-size: 70px;
   padding: 100px;
   width: 30%;
 }
@@ -173,8 +174,10 @@ h1 {
   border: 2px solid rgb(141, 151, 147);
   font-size: 170px;
   padding: 0px;
-  line-height: 180px;
   flex-wrap: nowrap;
+  font-family: 'PP Editorial New';
+  font-weight: 200;
+  font-style: normal;
 }
 
 .cursor {
@@ -190,11 +193,12 @@ h1 {
 }
 
 .nav-links li:hover ~ .cursor {
-  transform: scale(1.5);
+  transform: scale(1.5) translate(-30%, -30%);
 }
 
 h1:hover ~ .cursor {
   transform: scale(8);
+  
 }
 
 .flower-vase {
@@ -206,11 +210,11 @@ h1:hover ~ .cursor {
 
 
 .flower-vase img {
-    margin: auto; 
     position: absolute; 
     height: 1500px; 
     width: auto; 
-    margin-left: 20%; 
+    left: 50%; 
+    margin-left: -512px; 
 }
 
 #back-vase {
