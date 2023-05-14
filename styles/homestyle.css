@@ -2,54 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
 @import url("FontBook/stylesheet.css"); 
 
-/* @font-face {
-  font-family: "Zighead";
-  src: url("Fonts/Zighead.otf") format("otf");
-  font-weight: normal;
-  font-style: normal;
-}
-/* @font-face {
-  font-family: "PP Editorial New";
-  src: url("PPEditorialNew-Italic.otf") format("otf");
-  font-weight: normal;
-  font-style: italic;
-} */
-
-/* @font-face {
-  font-family: "PP Editorial New";
-  src: url("Fonts/PPEditorialNew-Regular.otf") format("otf");
-  font-weight: normal;
-  font-style: normal;
-} */
-
-/* @font-face {
-  font-family: "PP Editorial New";
-  src: url("PPEditorialNew-Ultrabold.otf") format("otf");
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "PP Editorial New";
-  src: url("PPEditorialNew-UltraboldItalic.otf") format("otf");
-  font-weight: bold;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Editorial New";
-  src: url("PPEditorialNew-Ultralight.otf") format("otf");
-  font-weight: light;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Editorial New";
-  src: url("PPEditorialNew-UltralightItalic.otf") format("otf");
-  font-weight: light;
-  font-style: italic; */
-/* } */
-
 body {
   background-color: rgb(141, 151, 147);
   color: white;
