@@ -42,7 +42,7 @@ body {
   margin-left: 90px;
   transform: scale(2.5);
   margin-top: 20px;
-  background-image: url(RatLogo.png);
+  background-image: url(/images/RatLogo.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

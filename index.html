@@ -8,20 +8,22 @@
     <title>Namita Sajai</title>
 </head>
 <body>
-    <nav class="navbar">
-        <a href="index.html">
-            <div class="logo" id="logo"></div>
-        </a>
+    <section class="cursor-show"> 
+        <nav class="navbar">
+            <a href="index.html">
+                <div class="logo" id="logo">
+                </div>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="readings.html">READINGS</a></li>
+                <div class=cursor></div>
+            </ul>
+        </nav>
+        <div class="name">
+            <h1 class="animate-name">Namita Sajai</h1>
         </div>
-        <ul class="nav-links">
-          <li><a href="#projects">PROJECTS</a></li>
-          <li><a href="readings.html">READINGS</a></li>
-          <div class=cursor></div>
-        </ul>
-    </nav>
-    <div class="name">
-        <h1>Namita Sajai</h1>
-    </div>
+    </section>
     <div class="project-section"> 
         <div class="about-me">
             <div class="section1">
@@ -32,47 +34,41 @@
                 <br> 
                 Hey! I'm Namita Sajai, a web developer and designer. I'm currently a student at the University of Pennsylvania, studying Computer Science and Design. 
                 I'm passionate about creating accessible and inclusive experiences for all users.
+                
             </div>
         </div>
         <div class="project-header" id="projects">
             <marquee behavior="scroll" direction="left">PROJECTS * PROJECTS * PROJECTS * PROJECTS </marquee>
         </div>
         <div class="flower-vase"> 
-            <img src="styles/SVG/BackVase.svg" id="back-vase" alt="flower-vase" width="100%">
-            <img src="styles/SVG/S3A2.svg" alt="s3a2" width="100%">
-            <img src="styles/SVG/S2Final.svg" alt="s2final" width="100%">
-            
-            <img src="styles/SVG/S1A2.svg" alt="s1a2" width="100%">
-            <img src="styles/SVG/S1Final.svg" alt="s1final" width="100%">
-            <img src="styles/SVG/S3Final.svg" alt="s3final" width="100%">
-            <img src="styles/SVG/S2A2.svg" alt="s2A2" width="100%">
-            <img src="styles/SVG/S3A1.svg" alt="s3a1" width="100%">
-            <img src="styles/SVG/S1A1.svg" id="pixelflower" alt="s1a1" width="100%">
-            <img src="styles/SVG/Vase.svg" id="vase" alt="flower-vase" width="100%">
-            <a href="s2final.html"> 
-                <div id="donut hitbox" style="height: 130px; width: 100px; position: absolute; margin-left: 450px; margin-top: 200px; z-index: 999"></div>
+            <img id="back-vase" src="images/BackVase.png" alt="back vase">
+            <a href="s3a2.html">
+                <img id="iss" class="flowers" src="images/S3A2.png" alt="">
             </a>
-            <a href="s1a1.html">
-                <div id="pixel flower hitbox" style="height: 130px; width: 130px; position: absolute; margin-left: 395px; margin-top: 335px; z-index: 999"></div>
+            <a href="s2final.html">
+                <img id="donutflower" class="flowers" src="images/S2Final.png" alt="">
             </a>
             <a href="s1a2.html">
-                <div id="cd hitbox" style="height: 100px; width: 100px; position: absolute; margin-left: 650px; margin-top: 140px; z-index: 999"></div>
+                <img id="cdflower" class="flowers" src="images/S1A2.png" alt="cd flower">
             </a>
-            <a href="s1final.html">
-                <div id="orange tulip hitbox" style="height: 100px; width: 100px; position: absolute; margin-left: 750px; margin-top: 270px; z-index: 999"></div>
+            <a href="s1a2.html">
+                <img id="tulip" class="flowers" src="images/S1Final.png" alt="">
+            </a>
+            <a href="s3final.">
+                <img id="wavy" class="flowers" src="images/S3Final.png" alt="">
             </a>
             <a href="s2a2.html">
-                <div id="blue flower hitbox" style=" height: 75px; width: 75px; position: absolute; margin-left: 890px; margin-top: 210px; z-index: 999"></div>
+                <img id="blueflower" class="flowers" src="images/S2A2.png" alt="">
             </a>
             <a href="s3a1.html">
-                <div id="pbj hitbox" style="height: 160px; width: 160px; position: absolute; margin-left: 555px; margin-top: 255px; z-index: 999"></div>
+                <img id="pbjflower" class="flowers" src="images/S3A1.png" alt="">
             </a>
-            <a href="s3a2.html">
-                <div id="satellite hitbox" style="height: 115px; width: 115px; position: absolute; margin-left: 800px; margin-top: 110px; z-index: 999"></div>
+            <a href="s1a1.html">
+                <img id="pixelflower" class="flowers" src="images/S1A1.png" alt="">
             </a>
-            <a href="s3final.html">
-                <div id="multicolored flower hitbox" style="height: 100px; width: 100px; position: absolute; margin-left: 990px; margin-top: 350px; z-index: 999"></div>
-            </a>
+            <img id="vase" src="images/Vase.png" alt="">
+            <div id="circle-popup" class="popup"></div>
+            <div id="pbj-popup" class="popup"></div>
         </div>
     </div>
 </body>
