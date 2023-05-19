@@ -209,7 +209,7 @@ h1 {
   margin-top: -60px; 
   z-index: 1; 
   overflow: hidden; 
-  background-image: linear-gradient(to top, rgba(245, 229, 235, 0.896) 0%, rgba(245, 229, 235, 0.896), 25%, #fbf8f8 25%, #fbf8f8 100%);
+  /* background-image: linear-gradient(to top, rgba(245, 229, 235, 0.896) 0%, rgba(245, 229, 235, 0.896), 25%, #fbf8f8 25%, #fbf8f8 100%); */
 }
 .about-me {
   display: flex;
@@ -241,9 +241,8 @@ h1 {
 }
 
 .section1 {
-  font-size: 120px;
+  font-size: 10vw;
   padding: 100px;
-  width: 90%;
   text-align: left; 
   text-indent: 100px; 
   padding-bottom: 0px; 
@@ -259,7 +258,6 @@ h1 {
   padding-top: 0px; 
   margin-top:-30px; 
   padding-bottom: 0px; 
-  min-width: 70%; 
   text-align: center; 
   font-size: 25px; 
   line-height: 2.2; 
