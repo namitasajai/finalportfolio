@@ -44,10 +44,11 @@ body {
   margin-left: 90px;
   transform: scale(2.5);
   margin-top: 20px;
-  background-image: url(/images/RatLogo.png);
+  background-image: url(images/RatLogo.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: block; 
   min-width: 40px;
   min-height: 40px;
 }
@@ -950,7 +951,7 @@ h1:hover ~ .cursor {
 #pixel-popup {
   margin-left: 50px; 
   margin-top: 120px; 
-  background-image: url('/images/snoopycafe.png');
+  background-image: url('images/snoopycafe.png');
   background-size: 160%; 
   background-position: 50% 2%; 
 }
@@ -958,7 +959,7 @@ h1:hover ~ .cursor {
 #pbj-popup {
   margin-left: 270px; 
   margin-top: -170px; 
-  background-image: url('/images/pbjpreview.png');
+  background-image: url('images/pbjpreview.png');
   background-size: 160%; 
   background-position: 50% 2%; 
 }
@@ -966,7 +967,7 @@ h1:hover ~ .cursor {
 #donut-popup {
   margin-left: 120px; 
   margin-top: -100px; 
-  background-image: url('/images/donutpreview.png');
+  background-image: url('images/donutpreview.png');
   background-size: 160%; 
   background-position: 50% 2%; 
 }
@@ -975,14 +976,14 @@ h1:hover ~ .cursor {
 #cd-popup {
   margin-left: 400px; 
   margin-top: -190px; 
-  background-image: url('/images/cdpreview.png');
+  background-image: url('images/cdpreview.png');
   background-size: 160%; 
 }
 
 #tulip-popup {
   margin-left: 550px; 
   margin-top: -210px; 
-  background-image: url('/images/tulippreview.png');
+  background-image: url('images/tulippreview.png');
   background-size: 300%; 
 }
 
@@ -991,21 +992,21 @@ h1:hover ~ .cursor {
   margin-top: -200px;
   width: 270px;
   height: 270px; 
-  background-image: url('/images/isspreview.png');
+  background-image: url('images/isspreview.png');
   background-size: 400%; 
 }
 
 #blue-popup {
   margin-left: 900px; 
   margin-top: -180px;
-  background-image: url('/images/parallaxpreview.png');
+  background-image: url('images/parallaxpreview.png');
   background-size: 250%; 
 }
 
 #wavy-popup {
   margin-left: 900px; 
   margin-top: 30px;
-  background-image: url('/images/telescopepreview.png');
+  background-image: url('images/telescopepreview.png');
   background-size: 160%; 
 }
 
