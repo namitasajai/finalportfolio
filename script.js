@@ -11,11 +11,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
   logo.addEventListener("mouseenter", function () {
     const timestamp = new Date().getTime();
-    logo.style.backgroundImage = `url(images/RatLogo.gif?${timestamp})`;
+    logo.style.backgroundImage = `url(styles/images/RatLogo.gif?${timestamp})`;
   });
 
   logo.addEventListener("mouseleave", function () {
-    logo.style.backgroundImage = "url(images/RatLogo.png)";
+    logo.style.backgroundImage = "url(styles/images/RatLogo.png)";
   });
 
   const flowerContainers = document.querySelectorAll(".flower-container");
