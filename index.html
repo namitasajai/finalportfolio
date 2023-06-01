@@ -94,22 +94,26 @@
     <div class="contact" id="contact-me">
         <span>
             <h>Let's work together!</h>
-            <a href="mailto:namitas@seas.upenn.edu">
-                <button>Email me</button>
-            </a>
-            <div id="row2"> 
-                <a>
-                    <button id="btn1">LinkedIn</button>
-                </a>
-                <a>
-                    <button id="btn2">Github</button>
-                </a>
-            </div>  
+            <form action="mailto:inquirytonamitasajai@gmail.com" method="get"> 
+                <div id="input-name">
+                    <input class="user-name" type="text" name="subject" placeholder="First name"></input>
+                    <input class="user-name" type="text" name="subject" placeholder="Last name"></input>
+                    <input id="input-email" type="email" name="email" placeholder="Your email"></input>
+                </div>
+                <div class="message">
+                    <input id="input-message" type="text" name="body" placeholder="Message"></input>
+                    <button id="submit-btn" type="submit" value="Send">Send</button>
+                </div>
+            </form>
+            <form id="row2"> 
+                <button id="btn1" type="submit" formaction="https://www.linkedin.com/in/namita-sajai/" target="_blank">LinkedIn</button>
+                <button id="btn2" type="submit" formaction="https://github.com/namitasajai" target="_blank">Github</button>
+            </form>  
         </span>
     </div>
     <div class="footer">
         <div class="footer-text">
-            <p>© 2021 Namita Sajai</p>
+            <p>© 2023 Namita Sajai</p>
         </div>
     </div>
 </body>

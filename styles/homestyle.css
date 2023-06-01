@@ -319,7 +319,7 @@ h1:hover ~ .cursor {
 }
 
 .contact {
-  min-height: 60vh;
+  min-height: 70vh;
   width: 100%; 
   position: relative;
   display: flex;
@@ -334,7 +334,7 @@ h1:hover ~ .cursor {
 .contact span {
   padding: 50px; 
 }
-.contact button {
+.contact button, input {
   position: relative;
   border-radius: 30px; 
   width: 100%; 
@@ -348,6 +348,41 @@ h1:hover ~ .cursor {
   color: #fbf8f8;
   border: 2px solid #fbf8f8;
 }
+.contact input::placeholder {
+  color: #fbf8f8;
+  opacity: 0.8; 
+}
+#input-name, .message {
+  display: flex; 
+  width: 100%; 
+  margin-bottom: 10px; 
+}
+
+#input-message {
+  flex: 5; 
+  border-radius: 30px 0px 0px 30px;
+  flex-grow: 2; 
+}
+
+#submit-btn {
+  flex: 1; 
+  height: 66px; 
+  border-radius: 0px 30px 30px 0px;
+  border-left: transparent; 
+  flex-grow: 0.3; 
+}
+
+.user-name {
+  margin-right: 10px; 
+  flex: 1; 
+}
+#input-email {
+  flex: 2; 
+}
+#input-message {
+  margin-bottom: 0px; 
+  width: 100%; 
+}
 .contact a {
   text-decoration: none;
   color: #fbf8f8;
@@ -359,17 +394,32 @@ h1:hover ~ .cursor {
   transition: 0.5s; 
 }
 
-#row2 button {
-  width: 50%; 
-  float: left; 
-  margin-top: 15px;
+#row2 {
+  width: 100%; 
+  display: flex; 
 }
 #btn1 {
   border-radius: 30px 0px 0px 30px;
+  background-color: rgba(245, 229, 235);
+  color: rgb(141, 151, 147);
+  border: 2px solid  rgba(245, 229, 235);
+  margin-right: 3px; 
+  flex: 1; 
 }
 #btn2 {
   border-radius: 0px 30px 30px 0px;
+  background-color: rgba(245, 229, 235);
+  color: rgb(141, 151, 147);
+  border: 2px solid rgba(245, 229, 235);
   border-left: none; 
+  flex: 1; 
+}
+
+#btn1:hover, #btn2:hover {
+  background-color: rgb(141, 151, 147);
+  color: #fbf8f8;
+  border: 2px solid #fbf8f8;
+  transition: 0.5s; 
 }
 
 .flower-vase {
@@ -1098,8 +1148,8 @@ h1:hover ~ .cursor {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: rgba(245, 229, 235);
-  color: rgb(141, 151, 147);
+  background-color: rgb(89, 97, 94);
+  color: #fbf8f8;
   font-family:  "Karla", sans-serif;
   text-align: center;
   font-size: 12px;
