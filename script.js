@@ -6,8 +6,16 @@ document.addEventListener("mousemove", (e) => {
   );
 });
 
+window.onload = function () {
+  const logo = document.getElementById("logo");
+  const timestamp = new Date().getTime();
+  logo.style.backgroundImage = `url(styles/images/RatLogo.gif?${timestamp})`;
+};
+
+
 document.addEventListener("DOMContentLoaded", function () {
   const logo = document.getElementById("logo");
+  logo.style.display = "block";
 
   logo.addEventListener("mouseenter", function () {
     const timestamp = new Date().getTime();
